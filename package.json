@@ -1,0 +1,23 @@
+{
+  "name": "proyectofinal_portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YisellSarasua/Yisell_Sarasua_Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YisellSarasua/Yisell_Sarasua_Portfolio/issues"
+  },
+  "homepage": "https://github.com/YisellSarasua/Yisell_Sarasua_Portfolio#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
