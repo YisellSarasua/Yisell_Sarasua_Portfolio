@@ -1,0 +1,31 @@
+@import 'variables';
+
+@mixin title-typography ($color) {
+    font-size: $title_typography_size;
+    font-weight: bold;
+    font-family:'Ubuntu',sans-serif;
+    font-weight:700;
+    color:$color;
+    text-decoration: none;
+    line-height: 64px;
+}
+
+@mixin subtitle-typography ($color) {
+    font-size:$subtitle_typography_size;
+    font-weight: bold;
+    font-family:'Ubuntu',sans-serif;
+    font-weight:700;
+    color:$color;
+    text-decoration: none;
+    line-height: 21px;
+}
+
+@mixin paragraph-typography ($color) {
+    font-size:$paragraph_typography_size;
+    font-weight: normal;
+    font-family:'Ubuntu',sans-serif;
+    font-weight:400;
+    color:$color;
+    text-decoration: none;
+    line-height: 21px;
+}

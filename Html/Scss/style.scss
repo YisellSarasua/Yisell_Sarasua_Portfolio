@@ -1,1 +1,20 @@
-@import 'header';
+@import '../Scss/bases/variables';
+@import '../Scss/bases/mixin.scss';
+
+
+
+
+
+.Title{
+    @include title-typography($title_Colors);
+}
+
+p{
+    @include paragraph-typography ($paragraph01_color);
+}
+
+.Subtitle{
+    @include subtitle-typography ($subtitle_colors);
+}
+
+

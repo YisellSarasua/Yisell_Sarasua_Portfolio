@@ -1,0 +1,33 @@
+/*colors*/
+/*colors*/
+.Title {
+  font-size: 42px;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  color: #505D68;
+  text-decoration: none;
+  line-height: 64px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  color: #A1AEB7;
+  text-decoration: none;
+  line-height: 21px;
+}
+
+.Subtitle {
+  font-size: 21px;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  color: #505D68;
+  text-decoration: none;
+  line-height: 21px;
+}
+
+/*# sourceMappingURL=style.css.map */
