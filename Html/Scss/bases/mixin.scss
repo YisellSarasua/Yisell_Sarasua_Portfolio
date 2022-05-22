@@ -2,9 +2,8 @@
 
 @mixin title-typography ($color) {
     font-size: $title_typography_size;
-    font-weight: bold;
-    font-family:'Ubuntu',sans-serif;
-    font-weight:700;
+    font-family:$fontFamilly;
+    font-weight:$font-bold;
     color:$color;
     text-decoration: none;
     line-height: 64px;
@@ -12,9 +11,8 @@
 
 @mixin subtitle-typography ($color) {
     font-size:$subtitle_typography_size;
-    font-weight: bold;
-    font-family:'Ubuntu',sans-serif;
-    font-weight:700;
+    font-family:$fontFamilly;
+    font-weight:$font-bold;
     color:$color;
     text-decoration: none;
     line-height: 21px;
@@ -22,9 +20,35 @@
 
 @mixin paragraph-typography ($color) {
     font-size:$paragraph_typography_size;
-    font-weight: normal;
-    font-family:'Ubuntu',sans-serif;
-    font-weight:400;
+    font-family:$fontFamilly;
+    font-weight:$font-light;
+    color:$color;
+    text-decoration: none;
+    line-height: 21px;
+}
+
+@mixin links-typography ($color) {
+    font-size:$links_typography_size;
+    font-family:$fontFamilly;
+    font-weight:$font-medium;
+    color:$color;
+    text-decoration: none;
+    line-height: 14px;
+}
+
+@mixin imgtitle-typography ($color) {
+    font-size:$imgtitle_typography_size;
+    font-family:$fontFamilly;
+    font-weight:$font-bold;
+    color:$color;
+    text-decoration: none;
+    line-height: 21px;
+}
+
+@mixin imgsubtitle-typography ($color) {
+    font-size:$imgsubtitle_typography_size;
+    font-family:$fontFamilly;
+    font-weight:$font-light;
     color:$color;
     text-decoration: none;
     line-height: 21px;

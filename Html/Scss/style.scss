@@ -1,9 +1,16 @@
 @import '../Scss/bases/variables';
 @import '../Scss/bases/mixin.scss';
+@import '../Scss/Components/hero';
 
 
 
-
+body{
+    
+        background-color:$background_color;
+        display: grid;
+        margin: 5px;
+    
+}
 
 .Title{
     @include title-typography($title_Colors);
@@ -17,4 +24,25 @@ p{
     @include subtitle-typography ($subtitle_colors);
 }
 
+ul{
+    text-decoration: none;
+
+    li{
+        @include links-typography ($links_color);
+    }
+}
+
+li{
+    @include links-typography ($links_color);
+}
+
+
+
+.img-title{
+    @include imgtitle-typography ($yellow_text);
+}
+
+.img-subtitle{
+    @include imgsubtitle-typography ($yellow_text);
+}
 

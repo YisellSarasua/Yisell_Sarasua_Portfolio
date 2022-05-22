@@ -1,8 +1,95 @@
-/*colors*/
-/*colors*/
+#home {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 50px;
+  height: 960px;
+}
+#home .intro {
+  width: 100%;
+  height: 800px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../Multimedia/Img/Hero_Background.png);
+}
+#home .intro .H {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: flex-end;
+  padding: 5px;
+}
+#home .intro .H p {
+  font-size: 90px;
+  color: #ECF010;
+  font-weight: 700;
+}
+#home .intro .I {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+#home .intro .I p {
+  display: flex;
+  height: 56px;
+  align-items: center;
+  padding: 5px;
+  font-size: 40px;
+  color: #505D68;
+  font-weight: 400;
+}
+#home .intro .I h1 {
+  display: flex;
+  width: 335px;
+  height: 56px;
+  align-items: flex-end;
+  padding: 5px;
+  margin-left: 20px;
+  background-color: #ECF010;
+  font-size: 40px;
+  color: #505D68;
+  font-weight: 500;
+}
+#home .me {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 50px;
+  margin-top: 100px;
+  align-items: center;
+}
+#home .me .description {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-right: 30px;
+  padding: 5px;
+  align-items: flex-end;
+}
+#home .me .description span {
+  padding: 5px;
+  text-align: end;
+}
+#home .me .description a {
+  padding: 5px;
+  justify-content: end;
+}
+#home .me .photo {
+  height: 200px;
+}
+
+body {
+  background-color: #145179;
+  display: grid;
+  margin: 5px;
+}
+
 .Title {
   font-size: 42px;
-  font-weight: bold;
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #505D68;
@@ -12,7 +99,6 @@
 
 p {
   font-size: 14px;
-  font-weight: normal;
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #A1AEB7;
@@ -22,10 +108,48 @@ p {
 
 .Subtitle {
   font-size: 21px;
-  font-weight: bold;
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #505D68;
+  text-decoration: none;
+  line-height: 21px;
+}
+
+ul {
+  text-decoration: none;
+}
+ul li {
+  font-size: 12px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  color: #424B5A;
+  text-decoration: none;
+  line-height: 14px;
+}
+
+li {
+  font-size: 12px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  color: #424B5A;
+  text-decoration: none;
+  line-height: 14px;
+}
+
+.img-title {
+  font-size: 32px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  color: #ECF010;
+  text-decoration: none;
+  line-height: 21px;
+}
+
+.img-subtitle {
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  color: #ECF010;
   text-decoration: none;
   line-height: 21px;
 }
