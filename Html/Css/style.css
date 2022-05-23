@@ -479,6 +479,70 @@ footer nav a :hover {
   transition: all 1s;
 }
 
+.hero02 {
+  height: 397px;
+  background-image: url(../Multimedia/Img/Hero_Background.png);
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  padding: 5px;
+  height: 400px;
+  align-items: center;
+}
+.aboutMe .photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin-right: 20px;
+}
+.aboutMe .descript {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+.aboutMe .descript .what {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+.aboutMe .descript .what .subtitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 250px;
+  margin-right: 60px;
+  padding: 3px;
+}
+.aboutMe .descript .what p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 3px;
+}
+.aboutMe .descript .about {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+.aboutMe .descript .about .subtitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 250px;
+  margin-right: 70px;
+  padding: 3px;
+}
+.aboutMe .descript .about p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 3px;
+}
+
 body {
   background-color: #F2F5F7;
   display: grid;
