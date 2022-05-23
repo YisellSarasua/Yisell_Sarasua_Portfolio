@@ -66,15 +66,13 @@
          
 
             h3{
-                
                 text-align: center;
-               
-            
             }
 
             p{
                 text-align: center;
             }
+            
             &:hover{
                 background-image: $img01b;
                 transform: scale(1.1,1.1);

@@ -1,0 +1,95 @@
+#contact{
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    height: auto;
+    
+
+    .Title{
+
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+       
+    }
+
+    .info{
+       
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        
+        padding: 50px;
+    
+        
+        
+        .contact-items{
+            display:flex;
+            flex-direction: column;
+            width: 70%;
+            margin-right: 50px;
+
+            .contact-data{
+                padding: 5px;
+                display: flex;
+                flex-direction: column;
+               
+
+                .Subtitle{
+                    margin-bottom: 10px;
+                    
+                    
+                }
+
+            }
+            
+            .items{
+                div{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;                 
+
+                    img{
+                        margin: 5px;
+                        padding: 3px;  
+                    }
+
+                    p{ 
+                        margin: 5px;
+                        display: flex;
+                        align-items: center;
+
+                    }
+                }
+            }
+
+        }
+
+        .contact-mail{
+            display: flex;
+            width: 90%;
+           
+            justify-content: flex-end;
+        
+            
+    
+        }
+    
+
+    }
+
+    .contact-form{
+        width: 80%;
+        height: 280px;
+
+    }
+
+
+
+}
