@@ -24,6 +24,8 @@
   font-size: 90px;
   color: #ECF010;
   font-weight: 700;
+  animation-name: mover;
+  animation-duration: 2s;
 }
 #home .intro .I {
   width: 100%;
@@ -31,6 +33,8 @@
   display: flex;
   flex-direction: row;
   padding: 5px;
+  animation-name: mover;
+  animation-duration: 2s;
 }
 #home .intro .I p {
   display: flex;
@@ -78,10 +82,32 @@
   padding: 5px;
   justify-content: end;
 }
+#home .me .description a :hover {
+  background-color: #ECF010;
+  transition: all 1s;
+  transform: scale(1.1, 1.1);
+  border-radius: 20px;
+}
 #home .me .photo {
   height: 200px;
 }
 
+@keyframes mover {
+  100% {
+    transform: translateX(0);
+  }
+  0% {
+    transform: translateX(-100%);
+  }
+}
+@keyframes mover02 {
+  100% {
+    transform: translateX(0);
+  }
+  0% {
+    transform: translateX(-300%);
+  }
+}
 #service {
   margin-top: 100px;
   width: 100%;
@@ -96,18 +122,19 @@
 }
 #service .service-card {
   width: 80%;
-  border: 1px solid red;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
 #service .service-card .card {
   width: 200px;
+  height: 350px;
   margin-bottom: 70px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-content: stretch;
   text-align: center;
+  border: 1px solid transparent;
 }
 #service .service-card .card div {
   display: flex;
@@ -116,7 +143,7 @@
 }
 #service .service-card .card div .service_icon {
   display: flex;
-  border-radius: 20%;
+  border-radius: 50%;
   height: 113px;
   width: 113px;
   margin: 50px;
@@ -124,9 +151,23 @@
   justify-content: center;
   background-color: #EAEBF1;
 }
+#service .service-card .card div .service_icon img {
+  background-color: #EAEBF1;
+}
 #service .service-card .card div .service_description {
+  height: 120px;
   width: 100%;
   padding: 5px;
+  margin-bottom: 5px;
+}
+#service .service-card .card div .service_plus {
+  margin-bottom: 5px;
+}
+#service .service-card .card div .service_plus :hover {
+  background-color: #ECF010;
+  transition: all 1s;
+  transform: scale(1.1, 1.1);
+  border-radius: 20px;
 }
 
 body {
