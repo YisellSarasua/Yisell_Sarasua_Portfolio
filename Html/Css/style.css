@@ -401,6 +401,7 @@
 }
 
 #contact {
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -456,6 +457,26 @@
 #contact .contact-form {
   width: 80%;
   height: 280px;
+}
+
+footer {
+  background-color: #EAEBF1;
+}
+footer nav {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+footer nav a img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 5px;
+}
+footer nav a :hover {
+  background-color: #ECF010;
+  transform: scale(1.1, 1.1);
+  transition: all 1s;
 }
 
 body {
