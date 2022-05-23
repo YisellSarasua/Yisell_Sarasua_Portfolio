@@ -543,6 +543,204 @@ footer nav a :hover {
   padding: 3px;
 }
 
+main {
+  background-color: #F2F5F7;
+}
+
+.process {
+  height: 500px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.process .intro {
+  width: 50%;
+  margin-top: 100px;
+}
+.process .intro .Title {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.process .intro p {
+  text-align: center;
+}
+.process .graphicProcess {
+  margin-top: 100px;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.process .graphicProcess .step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 5px;
+}
+.process .graphicProcess .step .N {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: #A1AEB7;
+  font-weight: 700;
+  font-size: #424B5A;
+  color: white;
+}
+.process .graphicProcess .step .N:hover {
+  border: 1px solid #ECF010;
+  transform: scale(1.2, 1.2);
+  transition: all 1s;
+}
+.process .graphicProcess .step p {
+  text-align: center;
+  font-weight: 500;
+}
+
+.count_project {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.count_project .intro .Title {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.count_project .intro p {
+  text-align: center;
+}
+.count_project .count_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px;
+}
+.count_project .count_card .card01 {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+}
+.count_project .count_card .card01 .N {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10px;
+  color: #ECF010;
+}
+.count_project .count_card .card01 .Subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #A1AEB7;
+}
+.count_project .count_card .card01 p {
+  text-align: center;
+}
+
+.example_projects {
+  margin-bottom: 100px;
+}
+.example_projects .intro {
+  margin-bottom: 100px;
+}
+.example_projects .intro .Title {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.example_projects .intro p {
+  text-align: center;
+}
+.example_projects .project_card {
+  display: flex;
+  flex-direction: row;
+}
+.example_projects .project_card .info_project {
+  width: 50%;
+  margin: 10px;
+}
+.example_projects .project_card .info_project .year {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.example_projects .project_card .info_project .year .T {
+  font-size: 12px;
+  height: 12px;
+}
+.example_projects .project_card .info_project .year .d {
+  font-weight: 700;
+}
+.example_projects .project_card .info_project .tools {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.example_projects .project_card .info_project .tools .T {
+  font-size: 12px;
+  height: 12px;
+}
+.example_projects .project_card .info_project .tools .d {
+  font-weight: 700;
+}
+.example_projects .project_card .info_project .skill {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.example_projects .project_card .info_project .skill .T {
+  font-size: 12px;
+  height: 12px;
+}
+.example_projects .project_card .info_project .skill .d {
+  font-weight: 700;
+}
+.example_projects .project_card .info_project .Descrip {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.example_projects .project_card .info_project .Descrip .T {
+  width: 100%;
+  font-size: 12px;
+  height: 20px;
+  border-bottom: 1px solid #A1AEB7;
+}
+.example_projects .project_card .info_project .Descrip .d {
+  font-weight: 400;
+}
+
 body {
   background-color: #F2F5F7;
   display: grid;

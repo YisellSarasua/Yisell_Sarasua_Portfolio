@@ -1,0 +1,314 @@
+main { 
+    background-color:$background_color;
+}
+.process{
+
+    height: 500px;
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+
+
+
+    .intro{
+        width: 50%;
+        margin-top: 100px;
+
+        .Title{
+            width: 100%;
+            margin-bottom: 20px;
+            text-align: center;
+       
+        }
+
+        p{
+        
+            text-align: center;
+        }
+    }
+
+    .graphicProcess{
+        margin-top: 100px;
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        
+        justify-content: space-around;
+        
+        
+        
+
+        .step{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px;
+            padding: 5px;
+        
+            
+
+            .N{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width:50px;
+                height: 50px;
+                border: 1px solid transparent;
+                border-radius: 50%;
+                background-color: $grey02_background;
+                
+                font-weight:$font-bold ;
+                font-size: $grey01_background;
+                color: white;
+
+                &:hover{
+               
+                    border: 1px solid $yelow_background;
+                    transform: scale(1.2,1.2);
+                    transition: all 1s;
+                }
+
+            }
+
+            p{
+                
+                text-align: center;  
+              
+                
+                font-weight: $font-medium ; 
+    
+            }
+
+           
+        }
+    }
+
+    
+}
+
+.count_project{
+    width: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .intro{
+        
+        
+        .Title{
+            width: 100%;
+            margin-bottom: 20px;
+            text-align: center;
+       
+        }
+
+        p{
+        
+            text-align: center;
+        }
+
+    }
+
+    .count_card{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        margin: 50px;
+        
+        
+
+        .card01{
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 10px;
+
+            .N{ 
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 65px;
+                font-size: 64px ;
+                font-weight: $font-bold;
+                text-align: center;
+                margin-top: 10px;
+                color: $yellow_text ;
+            }
+
+            .Subtitle{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                color: $paragraph01_color;
+
+            
+            }
+
+            p{
+
+                text-align: center;
+
+            }
+        }
+
+
+    }
+
+
+
+   
+}
+
+.example_projects{
+    margin-bottom: 100px;
+
+    .intro{
+        margin-bottom: 100px;
+        
+        
+        .Title{
+            width: 100%;
+            margin-bottom: 20px;
+            text-align: center;
+       
+        }
+
+        p{
+        
+            text-align: center;
+        }
+
+    }
+    .project_card{
+        display: flex;
+        flex-direction: row;
+        
+
+      
+        
+        .info_project{
+            width: 50%;
+            margin: 10px;
+          
+
+            .year{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                
+                height: 60px;
+                margin: 0;
+                padding: 0;
+                margin-bottom: 20px;
+               
+
+                .T{ 
+                    font-size: 12px;
+                    height: 12px;
+                }
+
+                .d{ 
+                    
+                    font-weight: 700;
+                }
+                
+               
+            }
+
+            .tools{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                
+                height: 60px;
+                margin: 0;
+                padding: 0;
+                margin-bottom: 20px;
+              
+
+                .T{ 
+                    font-size: 12px;
+                    height: 12px;
+                }
+
+                .d{ 
+                    
+                    font-weight: 700;
+                }
+                
+               
+            }
+
+            .skill{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                
+                height: 60px;
+                margin: 0;
+                padding: 0;
+                margin-bottom: 20px;
+                
+
+                .T{ 
+                    font-size: 12px;
+                    height: 12px;
+                }
+
+                .d{ 
+                    
+                    font-weight: 700;
+                }
+                
+               
+            }
+
+            .Descrip{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                
+                
+                margin: 0;
+                padding: 0;
+                margin-bottom: 20px;
+               
+
+                .T{ 
+                    width: 100%;
+                    font-size: 12px;
+                    height: 20px;
+                    border-bottom: 1px solid $grey02_background;
+                }
+
+                .d{ 
+                    
+                    font-weight: 400;
+                }
+                
+               
+            }
+
+
+        
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
