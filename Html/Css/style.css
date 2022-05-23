@@ -33,7 +33,7 @@
   display: flex;
   flex-direction: row;
   padding: 5px;
-  animation-name: mover;
+  animation-name: mover02;
   animation-duration: 2s;
 }
 #home .intro .I p {
@@ -170,6 +170,236 @@
   border-radius: 20px;
 }
 
+#work .Title {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#work nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 30px;
+  min-height: 13px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+#work nav ul li {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 150px;
+  height: 40px;
+  text-decoration: none;
+  border-radius: 3px;
+  margin: 5px;
+}
+#work nav ul li p {
+  margin-top: 10px;
+}
+#work nav ul li:hover {
+  transform: scale(1.1, 1.1);
+  background-color: #ECF010;
+  transition: all 1s;
+}
+#work .recent_project {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  grid-auto-rows: minmax(400px, auto);
+  gap: 5px;
+  grid-auto-flow: dense;
+}
+#work .recent_project .p01 {
+  background-repeat: no-repeat;
+  background-image: url(../Multimedia/Img/Projetc_01.png);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#work .recent_project .p01 h3 {
+  text-align: center;
+}
+#work .recent_project .p01 p {
+  text-align: center;
+}
+#work .recent_project .p01:hover {
+  background-image: url(../Multimedia/Img/Projetc_01b.png);
+  transform: scale(1.1, 1.1);
+  border-radius: 5px;
+  transition: all 1s;
+}
+#work .recent_project .p02 {
+  background-repeat: no-repeat;
+  background-image: url(../Multimedia/Img/Projetc_02.png);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#work .recent_project .p02 h3 {
+  text-align: center;
+}
+#work .recent_project .p02 p {
+  text-align: center;
+}
+#work .recent_project .p02:hover {
+  background-image: url(../Multimedia/Img/Projetc_02b.png);
+  transform: scale(1.1, 1.1);
+  border-radius: 5px;
+  transition: all 1s;
+}
+#work .recent_project .p03 {
+  background-repeat: no-repeat;
+  background-image: url(../Multimedia/Img/Projetc_03.png);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#work .recent_project .p03 h3 {
+  text-align: center;
+}
+#work .recent_project .p03 p {
+  text-align: center;
+}
+#work .recent_project .p03:hover {
+  background-image: url(../Multimedia/Img/Projetc_03b.png);
+  transform: scale(1.1, 1.1);
+  border-radius: 5px;
+  transition: all 1s;
+}
+#work .recent_project .p04 {
+  background-repeat: no-repeat;
+  background-image: url(../Multimedia/Img/Projetc_04.png);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#work .recent_project .p04 h3 {
+  text-align: center;
+}
+#work .recent_project .p04 p {
+  text-align: center;
+}
+#work .recent_project .p04:hover {
+  background-image: url(../Multimedia/Img/Projetc_04b.png);
+  transform: scale(1.1, 1.1);
+  border-radius: 5px;
+  transition: all 1s;
+}
+#work .recent_project .p05 {
+  background-repeat: no-repeat;
+  background-image: url(../Multimedia/Img/Projetc_05.png);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#work .recent_project .p05 h3 {
+  text-align: center;
+}
+#work .recent_project .p05 p {
+  text-align: center;
+}
+#work .recent_project .p05:hover {
+  background-image: url(../Multimedia/Img/Projetc_05b.png);
+  transform: scale(1.1, 1.1);
+  border-radius: 5px;
+  transition: all 1s;
+}
+#work .recent_project .p06 {
+  background-repeat: no-repeat;
+  background-image: url(../Multimedia/Img/Projetc_06.png);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#work .recent_project .p06 h3 {
+  text-align: center;
+}
+#work .recent_project .p06 p {
+  text-align: center;
+}
+#work .recent_project .p06:hover {
+  background-image: url(../Multimedia/Img/Projetc_06b.png);
+  transform: scale(1.1, 1.1);
+  border-radius: 5px;
+  transition: all 1s;
+}
+#work .recent_project .p07 {
+  background-repeat: no-repeat;
+  background-image: url(../Multimedia/Img/Projetc_07.png);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#work .recent_project .p07 h3 {
+  text-align: center;
+}
+#work .recent_project .p07 p {
+  text-align: center;
+}
+#work .recent_project .p07:hover {
+  background-image: url(../Multimedia/Img/Projetc_07b.png);
+  transform: scale(1.1, 1.1);
+  border-radius: 5px;
+  transition: all 1s;
+}
+#work .recent_project .p08 {
+  background-repeat: no-repeat;
+  background-image: url(../Multimedia/Img/Projetc_08.png);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#work .recent_project .p08 h3 {
+  text-align: center;
+}
+#work .recent_project .p08 p {
+  text-align: center;
+}
+#work .recent_project .p08:hover {
+  background-image: url(../Multimedia/Img/Projetc_08b.png);
+  transform: scale(1.1, 1.1);
+  border-radius: 5px;
+  transition: all 1s;
+}
+#work .recent_project .p09 {
+  background-repeat: no-repeat;
+  background-image: url(../Multimedia/Img/Projetc_09.png);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#work .recent_project .p09 h3 {
+  text-align: center;
+}
+#work .recent_project .p09 p {
+  text-align: center;
+}
+#work .recent_project .p09:hover {
+  background-image: url(../Multimedia/Img/Projetc_09b.png);
+  transform: scale(1.1, 1.1);
+  border-radius: 5px;
+  transition: all 1s;
+}
+
 body {
   background-color: #F2F5F7;
   display: grid;
@@ -209,7 +439,7 @@ ul {
 ul li {
   font-size: 12px;
   font-family: "Ubuntu", sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   color: #424B5A;
   text-decoration: none;
   line-height: 14px;
@@ -218,7 +448,7 @@ ul li {
 li {
   font-size: 12px;
   font-family: "Ubuntu", sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   color: #424B5A;
   text-decoration: none;
   line-height: 14px;

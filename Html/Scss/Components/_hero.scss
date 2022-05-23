@@ -31,10 +31,7 @@
                 display: flex;
                 align-items: flex-end;
                 padding: 5px;
-                
-
-             
-              
+                                         
                 p{
                    
                     font-size: 90px;
@@ -45,10 +42,6 @@
                     
                 }
 
-              
-
-               
- 
             }
 
             .I{
@@ -60,7 +53,7 @@
                 
                 padding: 5px;
 
-                animation-name: mover;
+                animation-name: mover02;
                 animation-duration: 2s;
 
                 p{
@@ -88,12 +81,8 @@
                     color:$subtitle_colors ;
                     font-weight:$font-medium ;         
                 }
-
-               
+             
             }
-
-        
-
 
     }
 
