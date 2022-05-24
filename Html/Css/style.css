@@ -543,10 +543,6 @@ footer nav a :hover {
   padding: 3px;
 }
 
-main {
-  background-color: #F2F5F7;
-}
-
 .process {
   height: 500px;
   margin-top: 100px;
@@ -667,15 +663,24 @@ main {
 .example_projects .intro p {
   text-align: center;
 }
-.example_projects .project_card {
+.example_projects .project_card_a {
   display: flex;
   flex-direction: row;
-}
-.example_projects .project_card .info_project {
-  width: 50%;
   margin: 10px;
 }
-.example_projects .project_card .info_project .year {
+.example_projects .project_card_a .carrousel_Photos {
+  width: 40%;
+  height: 280px;
+  height: auto;
+  border-radius: 5px;
+  background-color: #424B5A;
+}
+.example_projects .project_card_a .info_project {
+  width: 50%;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.example_projects .project_card_a .info_project .year {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -684,14 +689,14 @@ main {
   padding: 0;
   margin-bottom: 20px;
 }
-.example_projects .project_card .info_project .year .T {
+.example_projects .project_card_a .info_project .year .T {
   font-size: 12px;
   height: 12px;
 }
-.example_projects .project_card .info_project .year .d {
+.example_projects .project_card_a .info_project .year .d {
   font-weight: 700;
 }
-.example_projects .project_card .info_project .tools {
+.example_projects .project_card_a .info_project .tools {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -700,14 +705,14 @@ main {
   padding: 0;
   margin-bottom: 20px;
 }
-.example_projects .project_card .info_project .tools .T {
+.example_projects .project_card_a .info_project .tools .T {
   font-size: 12px;
   height: 12px;
 }
-.example_projects .project_card .info_project .tools .d {
+.example_projects .project_card_a .info_project .tools .d {
   font-weight: 700;
 }
-.example_projects .project_card .info_project .skill {
+.example_projects .project_card_a .info_project .skill {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -716,14 +721,14 @@ main {
   padding: 0;
   margin-bottom: 20px;
 }
-.example_projects .project_card .info_project .skill .T {
+.example_projects .project_card_a .info_project .skill .T {
   font-size: 12px;
   height: 12px;
 }
-.example_projects .project_card .info_project .skill .d {
+.example_projects .project_card_a .info_project .skill .d {
   font-weight: 700;
 }
-.example_projects .project_card .info_project .Descrip {
+.example_projects .project_card_a .info_project .Descrip {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -731,14 +736,98 @@ main {
   padding: 0;
   margin-bottom: 20px;
 }
-.example_projects .project_card .info_project .Descrip .T {
+.example_projects .project_card_a .info_project .Descrip .T {
   width: 100%;
   font-size: 12px;
   height: 20px;
   border-bottom: 1px solid #A1AEB7;
 }
-.example_projects .project_card .info_project .Descrip .d {
+.example_projects .project_card_a .info_project .Descrip .d {
   font-weight: 400;
+}
+.example_projects .project_card_b {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.example_projects .project_card_b .carrousel_Photos {
+  width: 40%;
+  height: 280px;
+  height: auto;
+  border-radius: 5px;
+  background-color: #424B5A;
+}
+.example_projects .project_card_b .info_project {
+  width: 50%;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+.example_projects .project_card_b .info_project .year {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.example_projects .project_card_b .info_project .year .T {
+  font-size: 12px;
+  height: 12px;
+}
+.example_projects .project_card_b .info_project .year .d {
+  font-weight: 700;
+}
+.example_projects .project_card_b .info_project .tools {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.example_projects .project_card_b .info_project .tools .T {
+  font-size: 12px;
+  height: 12px;
+}
+.example_projects .project_card_b .info_project .tools .d {
+  font-weight: 700;
+}
+.example_projects .project_card_b .info_project .skill {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.example_projects .project_card_b .info_project .skill .T {
+  font-size: 12px;
+  height: 12px;
+}
+.example_projects .project_card_b .info_project .skill .d {
+  font-weight: 700;
+}
+.example_projects .project_card_b .info_project .Descrip {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.example_projects .project_card_b .info_project .Descrip .T {
+  width: 100%;
+  font-size: 12px;
+  height: 20px;
+  border-bottom: 1px solid #A1AEB7;
+  text-align: end;
+}
+.example_projects .project_card_b .info_project .Descrip .d {
+  font-weight: 400;
+  text-align: end;
 }
 
 body {
