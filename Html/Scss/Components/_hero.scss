@@ -132,23 +132,3 @@
   
 
 }
-
-@keyframes mover {
-    100%{
-        transform: translateX(0);
-    }
-    0%{
-        transform: translateX(-100%);
-    }
-    
-}
-
-@keyframes mover02 {
-    100%{
-        transform: translateX(0);
-    }
-    0%{
-        transform: translateX(-300%);
-    }
-    
-}

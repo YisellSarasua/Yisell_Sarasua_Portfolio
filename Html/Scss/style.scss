@@ -24,14 +24,19 @@ body{
 
 .Title{
     @include title-typography($title_Colors);
+
+
 }
 
 p{
     @include paragraph-typography ($paragraph01_color);
+
+
 }
 
 .Subtitle{
     @include subtitle-typography ($subtitle_colors);
+  
 }
 
 ul{
@@ -50,9 +55,10 @@ li{
 
 .img-title{
     @include imgtitle-typography ($yellow_text);
+  
 }
 
 .img-subtitle{
     @include imgsubtitle-typography ($yellow_text);
-}
+  
 
