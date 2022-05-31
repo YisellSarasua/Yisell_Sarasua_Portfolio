@@ -11,8 +11,9 @@
     flex-direction: row;
     margin: 20px;
     padding: 5px;
-    height: 400px;
+    height: auto;
     align-items: center;
+
     .photo{
         display: flex;
         flex-direction: column;
@@ -92,9 +93,36 @@
         
     }
 
-  
+}
 
+@media (max-width: 768px) and (min-width: 577px){
 
+    .aboutMe{
+        flex-direction: column;
 
+        .photo{
+            margin-bottom: 100px;
+        }
+
+        .descript{
+            width: 70%;
+        }
+    }
+
+}
+
+@media (max-width: 576px){
+
+    .aboutMe{
+        flex-direction: column;
+
+        .photo{
+            margin-bottom: 100px;
+        }
+
+        .descript{
+            width: 70%;
+        }
+    }
 
 }
