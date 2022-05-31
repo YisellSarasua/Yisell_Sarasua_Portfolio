@@ -3,7 +3,6 @@
   flex-direction: column;
   width: 100%;
   margin-top: 20px;
-  height: 960px;
 }
 #home .intro {
   width: 100%;
@@ -62,6 +61,7 @@
   flex-direction: row;
   justify-content: flex-end;
   margin-right: 50px;
+  margin-left: 50px;
   margin-top: 100px;
   align-items: center;
 }
@@ -91,6 +91,84 @@
 #home .me .photo {
   height: 200px;
 }
+@media (max-width: 768px) and (min-width: 577px) {
+  #home .intro {
+    height: 900px;
+    padding-left: 20px;
+  }
+  #home .intro .H p {
+    font-size: 60px;
+  }
+  #home .intro .I p {
+    font-size: 30px;
+  }
+  #home .intro .I h1 {
+    font-size: 30px;
+  }
+  #home .me {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid purple;
+  }
+  #home .me .description {
+    align-items: center;
+  }
+  #home .me .description span {
+    text-align: center;
+  }
+  #home .me .description a {
+    justify-content: center;
+    background-color: yellow;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  #home .me .photo {
+    height: 200px;
+    margin: 30px;
+  }
+}
+@media (max-width: 576px) {
+  #home .intro {
+    height: 900px;
+    padding-left: 20px;
+  }
+  #home .intro .H p {
+    font-size: 60px;
+  }
+  #home .intro .I p {
+    font-size: 30px;
+  }
+  #home .intro .I h1 {
+    font-size: 30px;
+  }
+  #home .me {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid purple;
+  }
+  #home .me .description {
+    align-items: center;
+  }
+  #home .me .description span {
+    text-align: center;
+  }
+  #home .me .description a {
+    justify-content: center;
+    background-color: yellow;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  #home .me .photo {
+    height: 200px;
+    margin: 30px;
+  }
+}
 
 #service {
   margin-top: 100px;
@@ -119,6 +197,7 @@
   align-content: space-between;
   text-align: center;
   justify-items: center;
+  border: 1px solid transparent;
 }
 #service .service-card .card div {
   display: flex;
@@ -193,14 +272,15 @@
 #work .recent_project {
   width: 100%;
   display: grid;
+  padding: 20px;
   grid-template-columns: repeat(3, minmax(300px, 1fr));
   grid-auto-rows: minmax(400px, auto);
-  gap: 5px;
+  gap: 20px;
   grid-auto-flow: dense;
 }
 #work .recent_project .p01 {
   background-repeat: no-repeat;
-  background-image: url(../Multimedia/Img/Projetc_01B.png);
+  background-image: url(../Multimedia/Img/Projetc_01.png);
   width: 100%;
   display: flex;
   flex-direction: row;

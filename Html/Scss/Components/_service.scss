@@ -10,13 +10,10 @@
 
 
 
-    .Title{
-        
+    .Title{  
         width: 100%;
         margin-bottom: 50px;
         text-align: center;
-        
-
     }
 
     .service-card{
@@ -37,66 +34,56 @@
             align-content:space-between;
             text-align: center;
             justify-items: center;
+            border: 1px solid transparent;
             
+            div{
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
 
 
-                div{
-
+                .service_icon{
                     display: flex;
-                    flex-direction: column;
+                    border-radius: 50%;
+                    height: 113px;
+                    width: 113px;
+                    margin: 50px;
                     align-items: center;
+                    justify-content: center;
+                    background-color:$grey04_background;
 
-
-                    .service_icon{
-                        display: flex;
-                        border-radius: 50%;
-                        height: 113px;
-                        width: 113px;
-                        margin: 50px;
-                        align-items: center;
-                        justify-content: center;
+                    img{
                         background-color:$grey04_background;
-
-                        img{
-                            background-color:$grey04_background;
-                        
-                        }
-
-                      
+                    
                     }
-
-                    .service_description{
-                        height: 120px;
-                        width: 100%;
-                        padding: 5px;
-                        margin-bottom: 5px;
-                      
-                        
-                    }
-
-                    .service_plus{
-                        margin-bottom: 5px;
-
-                        & :hover{
-                            background-color:  $yelow_background;
-                            transition: all 1s;
-                            transform: scale(1.1,1.1);
-                            border-radius: 20px; 
-                         }
-                    }
-
-
 
                     
-        
-
                 }
-            
-                
+
+                .service_description{
+                    height: 120px;
+                    width: 100%;
+                    padding: 5px;
+                    margin-bottom: 5px;
+                    
+                    
+                }
+
+                .service_plus{
+                    margin-bottom: 5px;
+
+                    & :hover{
+                        background-color:  $yelow_background;
+                        transition: all 1s;
+                        transform: scale(1.1,1.1);
+                        border-radius: 20px; 
+                        }
+                }
+            }
+
         }
        
-
-
     } 
 
 }

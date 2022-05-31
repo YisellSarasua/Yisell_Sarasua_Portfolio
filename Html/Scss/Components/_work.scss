@@ -66,47 +66,62 @@
     .recent_project{
         width: 100%;
         display: grid;
+        padding: 20px;
         grid-template-columns: repeat(3, minmax(300px, 1fr));
         grid-auto-rows: minmax(400px , auto);
-
-        gap: 5px;
+        
+        gap: 20px;
         grid-auto-flow: dense;
 
         .p01{
-            @include Ptoject_Img ( url(../Multimedia/Img/Projetc_01B.png), url(../Multimedia/Img/Projetc_01B.png));
+             
+            @include Ptoject_Img ( url(../Multimedia/Img/Projetc_01.png), url(../Multimedia/Img/Projetc_01B.png));
+            
         }
 
         .p02{
+            
             @include Ptoject_Img ( url(../Multimedia/Img/Projetc_02.png), url(../Multimedia/Img/Projetc_02B.png));
+           
         }
 
         .p03{
             @include Ptoject_Img ( url(../Multimedia/Img/Projetc_03.png), url(../Multimedia/Img/Projetc_03B.png));
+            
         }
 
         .p04{
             @include Ptoject_Img ( url(../Multimedia/Img/Projetc_04.png), url(../Multimedia/Img/Projetc_04B.png));
+           
         }
 
         .p05{
             @include Ptoject_Img ( url(../Multimedia/Img/Projetc_05.png), url(../Multimedia/Img/Projetc_05B.png));
+            
         }
 
         .p06{
+           
             @include Ptoject_Img ( url(../Multimedia/Img/Projetc_06.png), url(../Multimedia/Img/Projetc_06B.png));
+            
         }
 
         .p07{
+            
             @include Ptoject_Img ( url(../Multimedia/Img/Projetc_07.png), url(../Multimedia/Img/Projetc_07B.png));
+            
         }
 
         .p08{
+            
             @include Ptoject_Img ( url(../Multimedia/Img/Projetc_08.png), url(../Multimedia/Img/Projetc_08B.png));
+            ;
         }
 
         .p09{
 
            @include Ptoject_Img ( url(../Multimedia/Img/Projetc_09.png), url(../Multimedia/Img/Projetc_09B.png));
+          
             
         }
 
