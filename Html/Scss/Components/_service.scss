@@ -86,4 +86,76 @@
        
     } 
 
+    @media (max-width: 768px) and (min-width: 577px){
+
+        .service-card{
+            width: 100%;
+            grid-template-columns:1fr 1fr;
+            grid-template-rows: auto;
+
+            .card{
+                .service_plus{
+                    img{
+                        align-items: center;
+                        height: 40px;
+                        width: 40px;
+                        border-radius: 50%;
+                        background-color: $yelow_background;
+                    }
+
+                }
+            }
+
+        }
+
+    }
+
+    @media (max-width: 576px){
+
+        .service-card{
+            width: 90%;
+            grid-template-columns:1fr;
+            grid-template-rows: auto;
+
+            .card{
+            
+                height: auto;
+               
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                border: 1px solid transparent;
+                border-radius: 5px;
+                background-color: $grey04_background;
+                padding: 10px;
+
+                .service_icon{
+                   border: 2px solid  $yelow_background;
+
+                 
+                    
+                }
+
+                .service_plus{
+                    
+
+                    img{
+                        align-items: center;
+                        height: 40px;
+                        width: 40px;
+                        border-radius: 50%;
+                        background-color: $yelow_background;
+                    }
+
+                }
+                
+                
+    
+            }
+
+            
+        }
+
+    }
+
 }
